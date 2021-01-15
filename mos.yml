@@ -1,0 +1,23 @@
+author: Igor Yova
+description: esp32-camera driver
+type: lib
+version: 2.0.0
+
+sources:
+  - conversions/include
+  - conversions/private_include
+  - conversions
+  - driver
+  - sensors
+
+libs:
+  - origin: https://github.com/mongoose-os-libs/arduino-compat
+  - origin: https://github.com/mongoose-os-libs/spi
+
+tags:
+  - arduino
+  - c
+  - core
+  - docs:esp32-camera:OV2640
+
+manifest_version: 2018-06-20
